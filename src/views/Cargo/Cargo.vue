@@ -10,7 +10,7 @@
                     <el-row :gutter="20">
                         <el-col :xs="24" :sm="24" :md="24" :lg="24" :xl="24">
                             <FormCargo v-model:is-open="mostrarFormulario" :is-edit="editandoFormulario" ref="formRef"
-                                :nombre="nombre" :dataValue="dataCargoById" />
+                            nombre="nombre":dataValue="dataCargoById" />
                         </el-col>
                     </el-row>
                 </template>
@@ -152,7 +152,7 @@ const datosById = async (id) => {
                 id: id
             }
         })
-        return (await response).data.result
+        return (await response).data.data
 
     } catch (error) {
         console.error('error crear cargo ', error)
