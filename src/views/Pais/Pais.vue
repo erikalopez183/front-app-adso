@@ -1,7 +1,7 @@
 <template>
   <LayoutMain>
       <template #slotLayout>
-          <Header :titulo="'Pais'" :tituloBoton="'Crear Pais'" :abrir="abrirFormulario" />
+        <Header :titulo="'Pais'" :tituloBoton="'Crear Pais'" :abrir="abrirFormulario" />
 
 
           <Formulario :titulo="'Gestion de Pais'" v-model:is-open="mostrarFormulario" :is-edit="editandoFormulario"
