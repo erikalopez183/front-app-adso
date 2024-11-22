@@ -17,7 +17,7 @@ import Tipo_Declaracion from '../views/Tipo_Declaracion/Tipo_Declaracion.vue'
 import Tipo_Documento from '../views/Tipo_Documento/Tipo_Documento.vue'
 import Usuario from '../views/Usuario/Usuario.vue'
 import LayoutMain from '../components/LayoutMain.vue'
-import Login from '../components/Login.vue'
+import Login from '../components/login.vue'
 
 const routes =[
 
