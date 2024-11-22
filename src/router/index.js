@@ -1,6 +1,6 @@
 import {createRouter, createWebHistory} from 'vue-router'
-import Pais from '../views/pais/pais.vue'
 import Cargo from '../views/Cargo/Cargo.vue'
+import Pais from '../views/pais/pais.vue'
 import Asignacion_Empresa from '../views/Asignacion_Empresa/Asignacion_Empresa.vue'
 import Ciudad from '../views/Ciudad/Ciudad.vue'
 import Clasificacion_Tributaria from '../views/Clasificacion_Tributaria/Clasificacion_Tributaria.vue'
